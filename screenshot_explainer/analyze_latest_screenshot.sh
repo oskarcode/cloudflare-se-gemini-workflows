@@ -1,14 +1,13 @@
 #!/bin/bash
 
 # Directory where screenshots are saved
-DESKTOP_DIR="/Users/oskarablimit/Desktop/screenshots"
+DESKTOP_DIR="/Desktop/screenshots"
 
-# Path to the prompt file
-PROMPT_FILE="/Users/oskarablimit/.gemini/screenshot_explainer/screen_explainer.md"
+# Path to the prompt file, the location for the .md prompt file
+PROMPT_FILE="/screen_explainer.md"
 
 # Find the most recent screenshot on the desktop
 # Assumes the default macOS screenshot filename pattern "Screenshot..."
-# For debugging, also show the top few candidates (sent to stderr so Alfred sees only the final answer).
 echo "Scanning Desktop for recent screenshots (debug):" >&2
 ls -lt "$DESKTOP_DIR"/Screenshot* 2>/dev/null | head -n 5 >&2 || echo "  (no matching Screenshot* files)" >&2
 
