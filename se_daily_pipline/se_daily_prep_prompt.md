@@ -21,7 +21,7 @@ Instructions:
     b.  Content Search: Use the search_cloudflare_documentation tool to perform targeted searches based on the deduced Main Technical Focus.
     c.  Draft Document Block: Generate the preparation content using the exact Markdown structure below, using content sourced ONLY from the official documentation and meeting context. Ensure the **Demo Guidance** section is highly detailed and **CUSTOMIZED TO THE CUSTOMER'S INDUSTRY AND USE CASE** (e.g., if AdTech, use an AdTech scenario).
     d.  Append Content (CRITICAL): Use the docs.appendText tool to append the drafted document block to the target Google Doc.
-        *   Target Doc URL: https://docs.google.com/document/d/1oga3w4s_Sn2IiZ3YKuvAXz_itr1m95oo7wSFyXkuH_w/edit?usp=sharing
+        *   Target Doc URL: "add your google doc shareable link to save all of the output"
                 *   Hierarchical Structure Logic:
                     *   Before processing the list of meetings, sort them chronologically by their start time.
                     *   Keep track of the last date heading you've written to the document (e.g., in a variable `last_written_date`).
