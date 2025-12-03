@@ -2,12 +2,7 @@
 
 # --- Configuration: Paths Provided by User ---
 GEMINI_PATH="/opt/homebrew/bin/gemini"
-PROMPT_FILE_PATH="/Users/oskarablimit/.gemini/se_daily_pipline/se_daily_prep_prompt.md"
-
-# --- Logging Setup (Retained for audit trail) ---
-LOG_DIR="/Users/oskarablimit/.gemini/se_daily_pipline/logs"
-mkdir -p "$LOG_DIR"
-LOG_FILE="$LOG_DIR/prep_pipeline_$(date +\%Y\%m\%d_\%H\%M\%S).log"
+PROMPT_FILE_PATH="/se_daily_prep_prompt.md"
 
 
 # --- Execution ---
