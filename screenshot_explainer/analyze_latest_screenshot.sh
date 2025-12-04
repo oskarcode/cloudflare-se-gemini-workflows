@@ -3,10 +3,10 @@
 # Minimal screenshot explainer: find latest screenshot and call Gemini once.
 
 # Directory where screenshots are saved
-DESKTOP_DIR="/Users/oskarablimit/Desktop/screenshots"
+DESKTOP_DIR="Desktop/{}/screenshots"
 
 # Path to the prompt file
-PROMPT_FILE="/Users/oskarablimit/.gemini/se-workflow/screenshot_explainer/screen_explainer.md"
+PROMPT_FILE="/{}/screen_explainer.md"
 
 # Find the most recent screenshot (full path)
 LATEST_SCREENSHOT=$(ls -t "$DESKTOP_DIR"/Screenshot* 2>/dev/null | head -n 1)
