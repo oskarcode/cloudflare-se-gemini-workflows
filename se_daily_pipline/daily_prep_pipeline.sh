@@ -3,10 +3,10 @@
 # Minimal SE daily prep pipeline: just read the prompt and call Gemini once.
 
 # Path to Gemini CLI
-GEMINI_PATH="/opt/homebrew/bin/gemini"
+GEMINI_PATH="{}/gemini"
 
 # Path to the prompt file (update if you move the repo)
-PROMPT_FILE_PATH="/Users/oskarablimit/.gemini/se-workflow/se_daily_pipline/se_daily_prep_prompt.md"
+PROMPT_FILE_PATH="{}/se_daily_prep_prompt.md"
 
 # Model flag
 MODEL_FLAG="-m gemini-2.5-flash"
